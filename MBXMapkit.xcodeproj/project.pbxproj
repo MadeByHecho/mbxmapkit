@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		D2DB7BAA1ADA4BDF0033730D /* MBXMapkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DB7B9E1ADA4BDF0033730D /* MBXMapkit.framework */; };
 		D2DB7BB11ADA4BDF0033730D /* MBXMapkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BB01ADA4BDF0033730D /* MBXMapkitTests.m */; };
-		D2DB7BCA1ADA4C340033730D /* MBXConstantsAndTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BBD1ADA4C340033730D /* MBXConstantsAndTypes.h */; };
-		D2DB7BCB1ADA4C340033730D /* MBXMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BBE1ADA4C340033730D /* MBXMapKit.h */; };
+		D2DB7BCA1ADA4C340033730D /* MBXConstantsAndTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BBD1ADA4C340033730D /* MBXConstantsAndTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2DB7BCB1ADA4C340033730D /* MBXMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BBE1ADA4C340033730D /* MBXMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2DB7BCC1ADA4C340033730D /* MBXMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BBF1ADA4C340033730D /* MBXMapKit.m */; };
-		D2DB7BCD1ADA4C340033730D /* MBXOfflineMapDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC01ADA4C340033730D /* MBXOfflineMapDatabase.h */; };
+		D2DB7BCD1ADA4C340033730D /* MBXOfflineMapDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC01ADA4C340033730D /* MBXOfflineMapDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2DB7BCE1ADA4C340033730D /* MBXOfflineMapDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC11ADA4C340033730D /* MBXOfflineMapDatabase.m */; };
-		D2DB7BCF1ADA4C340033730D /* MBXOfflineMapDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC21ADA4C340033730D /* MBXOfflineMapDownloader.h */; };
+		D2DB7BCF1ADA4C340033730D /* MBXOfflineMapDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC21ADA4C340033730D /* MBXOfflineMapDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2DB7BD01ADA4C340033730D /* MBXOfflineMapDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC31ADA4C340033730D /* MBXOfflineMapDownloader.m */; };
-		D2DB7BD11ADA4C340033730D /* MBXPointAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC41ADA4C340033730D /* MBXPointAnnotation.h */; };
+		D2DB7BD11ADA4C340033730D /* MBXPointAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC41ADA4C340033730D /* MBXPointAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2DB7BD21ADA4C340033730D /* MBXPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC51ADA4C340033730D /* MBXPointAnnotation.m */; };
-		D2DB7BD31ADA4C340033730D /* MBXRasterTileOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC61ADA4C340033730D /* MBXRasterTileOverlay.h */; };
+		D2DB7BD31ADA4C340033730D /* MBXRasterTileOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC61ADA4C340033730D /* MBXRasterTileOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2DB7BD41ADA4C340033730D /* MBXRasterTileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC71ADA4C340033730D /* MBXRasterTileOverlay.m */; };
-		D2DB7BD51ADA4C340033730D /* MBXRasterTileRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC81ADA4C340033730D /* MBXRasterTileRenderer.h */; };
+		D2DB7BD51ADA4C340033730D /* MBXRasterTileRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC81ADA4C340033730D /* MBXRasterTileRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2DB7BD61ADA4C340033730D /* MBXRasterTileRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC91ADA4C340033730D /* MBXRasterTileRenderer.m */; };
 		D2DB7BD81ADA4C5F0033730D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DB7BD71ADA4C5F0033730D /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
@@ -450,6 +450,7 @@
 				D2DB7BB61ADA4BDF0033730D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2DB7BB71ADA4BDF0033730D /* Build configuration list for PBXNativeTarget "MBXMapkitTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +459,7 @@
 				D2DB7BB91ADA4BDF0033730D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
