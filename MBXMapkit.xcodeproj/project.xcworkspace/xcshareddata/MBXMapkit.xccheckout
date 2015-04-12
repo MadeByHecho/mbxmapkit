@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2C749C34-5E36-4BEB-8470-91DF800E16C4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MBXMapkit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E11ED9C1886DE900DAAB8B02E5DA11E23DF5F596</key>
 		<string>https://github.com/MadeByHecho/mbxmapkit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MBXMapkit/MBXMapkit.xcodeproj/project.xcworkspace</string>
+	<string>MBXMapkit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E11ED9C1886DE900DAAB8B02E5DA11E23DF5F596</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/MadeByHecho/mbxmapkit.git</string>
