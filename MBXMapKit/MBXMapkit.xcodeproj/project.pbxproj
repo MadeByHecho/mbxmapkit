@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2DB7BAA1ADA4BDF0033730D /* MBXMapkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DB7B9E1ADA4BDF0033730D /* MBXMapkit.framework */; };
+		D2DB7BB11ADA4BDF0033730D /* MBXMapkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BB01ADA4BDF0033730D /* MBXMapkitTests.m */; };
+		D2DB7BCA1ADA4C340033730D /* MBXConstantsAndTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BBD1ADA4C340033730D /* MBXConstantsAndTypes.h */; };
+		D2DB7BCB1ADA4C340033730D /* MBXMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BBE1ADA4C340033730D /* MBXMapKit.h */; };
+		D2DB7BCC1ADA4C340033730D /* MBXMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BBF1ADA4C340033730D /* MBXMapKit.m */; };
+		D2DB7BCD1ADA4C340033730D /* MBXOfflineMapDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC01ADA4C340033730D /* MBXOfflineMapDatabase.h */; };
+		D2DB7BCE1ADA4C340033730D /* MBXOfflineMapDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC11ADA4C340033730D /* MBXOfflineMapDatabase.m */; };
+		D2DB7BCF1ADA4C340033730D /* MBXOfflineMapDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC21ADA4C340033730D /* MBXOfflineMapDownloader.h */; };
+		D2DB7BD01ADA4C340033730D /* MBXOfflineMapDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC31ADA4C340033730D /* MBXOfflineMapDownloader.m */; };
+		D2DB7BD11ADA4C340033730D /* MBXPointAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC41ADA4C340033730D /* MBXPointAnnotation.h */; };
+		D2DB7BD21ADA4C340033730D /* MBXPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC51ADA4C340033730D /* MBXPointAnnotation.m */; };
+		D2DB7BD31ADA4C340033730D /* MBXRasterTileOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC61ADA4C340033730D /* MBXRasterTileOverlay.h */; };
+		D2DB7BD41ADA4C340033730D /* MBXRasterTileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC71ADA4C340033730D /* MBXRasterTileOverlay.m */; };
+		D2DB7BD51ADA4C340033730D /* MBXRasterTileRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DB7BC81ADA4C340033730D /* MBXRasterTileRenderer.h */; };
+		D2DB7BD61ADA4C340033730D /* MBXRasterTileRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7BC91ADA4C340033730D /* MBXRasterTileRenderer.m */; };
+		D2DB7BD81ADA4C5F0033730D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DB7BD71ADA4C5F0033730D /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2DB7BAB1ADA4BDF0033730D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DB7B951ADA4BDF0033730D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DB7B9D1ADA4BDF0033730D;
+			remoteInfo = MBXMapkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2DB7B9E1ADA4BDF0033730D /* MBXMapkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBXMapkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DB7BA21ADA4BDF0033730D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DB7BA91ADA4BDF0033730D /* MBXMapkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBXMapkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DB7BAF1ADA4BDF0033730D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DB7BB01ADA4BDF0033730D /* MBXMapkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXMapkitTests.m; sourceTree = "<group>"; };
+		D2DB7BBD1ADA4C340033730D /* MBXConstantsAndTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXConstantsAndTypes.h; sourceTree = "<group>"; };
+		D2DB7BBE1ADA4C340033730D /* MBXMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXMapKit.h; sourceTree = "<group>"; };
+		D2DB7BBF1ADA4C340033730D /* MBXMapKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXMapKit.m; sourceTree = "<group>"; };
+		D2DB7BC01ADA4C340033730D /* MBXOfflineMapDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXOfflineMapDatabase.h; sourceTree = "<group>"; };
+		D2DB7BC11ADA4C340033730D /* MBXOfflineMapDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXOfflineMapDatabase.m; sourceTree = "<group>"; };
+		D2DB7BC21ADA4C340033730D /* MBXOfflineMapDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXOfflineMapDownloader.h; sourceTree = "<group>"; };
+		D2DB7BC31ADA4C340033730D /* MBXOfflineMapDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXOfflineMapDownloader.m; sourceTree = "<group>"; };
+		D2DB7BC41ADA4C340033730D /* MBXPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXPointAnnotation.h; sourceTree = "<group>"; };
+		D2DB7BC51ADA4C340033730D /* MBXPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXPointAnnotation.m; sourceTree = "<group>"; };
+		D2DB7BC61ADA4C340033730D /* MBXRasterTileOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXRasterTileOverlay.h; sourceTree = "<group>"; };
+		D2DB7BC71ADA4C340033730D /* MBXRasterTileOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXRasterTileOverlay.m; sourceTree = "<group>"; };
+		D2DB7BC81ADA4C340033730D /* MBXRasterTileRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXRasterTileRenderer.h; sourceTree = "<group>"; };
+		D2DB7BC91ADA4C340033730D /* MBXRasterTileRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXRasterTileRenderer.m; sourceTree = "<group>"; };
+		D2DB7BD71ADA4C5F0033730D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2DB7B9A1ADA4BDF0033730D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DB7BD81ADA4C5F0033730D /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DB7BA61ADA4BDF0033730D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DB7BAA1ADA4BDF0033730D /* MBXMapkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2DB7B941ADA4BDF0033730D = {
+			isa = PBXGroup;
+			children = (
+				D2DB7BA01ADA4BDF0033730D /* MBXMapkit */,
+				D2DB7BAD1ADA4BDF0033730D /* MBXMapkitTests */,
+				D2DB7B9F1ADA4BDF0033730D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DB7B9F1ADA4BDF0033730D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DB7B9E1ADA4BDF0033730D /* MBXMapkit.framework */,
+				D2DB7BA91ADA4BDF0033730D /* MBXMapkitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2DB7BA01ADA4BDF0033730D /* MBXMapkit */ = {
+			isa = PBXGroup;
+			children = (
+				D2DB7BBD1ADA4C340033730D /* MBXConstantsAndTypes.h */,
+				D2DB7BBE1ADA4C340033730D /* MBXMapKit.h */,
+				D2DB7BBF1ADA4C340033730D /* MBXMapKit.m */,
+				D2DB7BC01ADA4C340033730D /* MBXOfflineMapDatabase.h */,
+				D2DB7BC11ADA4C340033730D /* MBXOfflineMapDatabase.m */,
+				D2DB7BC21ADA4C340033730D /* MBXOfflineMapDownloader.h */,
+				D2DB7BC31ADA4C340033730D /* MBXOfflineMapDownloader.m */,
+				D2DB7BC41ADA4C340033730D /* MBXPointAnnotation.h */,
+				D2DB7BC51ADA4C340033730D /* MBXPointAnnotation.m */,
+				D2DB7BC61ADA4C340033730D /* MBXRasterTileOverlay.h */,
+				D2DB7BC71ADA4C340033730D /* MBXRasterTileOverlay.m */,
+				D2DB7BC81ADA4C340033730D /* MBXRasterTileRenderer.h */,
+				D2DB7BC91ADA4C340033730D /* MBXRasterTileRenderer.m */,
+				D2DB7BA11ADA4BDF0033730D /* Supporting Files */,
+			);
+			path = MBXMapkit;
+			sourceTree = "<group>";
+		};
+		D2DB7BA11ADA4BDF0033730D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DB7BD71ADA4C5F0033730D /* libsqlite3.dylib */,
+				D2DB7BA21ADA4BDF0033730D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2DB7BAD1ADA4BDF0033730D /* MBXMapkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DB7BB01ADA4BDF0033730D /* MBXMapkitTests.m */,
+				D2DB7BAE1ADA4BDF0033730D /* Supporting Files */,
+			);
+			path = MBXMapkitTests;
+			sourceTree = "<group>";
+		};
+		D2DB7BAE1ADA4BDF0033730D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DB7BAF1ADA4BDF0033730D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2DB7B9B1ADA4BDF0033730D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DB7BCB1ADA4C340033730D /* MBXMapKit.h in Headers */,
+				D2DB7BD51ADA4C340033730D /* MBXRasterTileRenderer.h in Headers */,
+				D2DB7BCA1ADA4C340033730D /* MBXConstantsAndTypes.h in Headers */,
+				D2DB7BD31ADA4C340033730D /* MBXRasterTileOverlay.h in Headers */,
+				D2DB7BD11ADA4C340033730D /* MBXPointAnnotation.h in Headers */,
+				D2DB7BCF1ADA4C340033730D /* MBXOfflineMapDownloader.h in Headers */,
+				D2DB7BCD1ADA4C340033730D /* MBXOfflineMapDatabase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2DB7B9D1ADA4BDF0033730D /* MBXMapkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DB7BB41ADA4BDF0033730D /* Build configuration list for PBXNativeTarget "MBXMapkit" */;
+			buildPhases = (
+				D2DB7B991ADA4BDF0033730D /* Sources */,
+				D2DB7B9A1ADA4BDF0033730D /* Frameworks */,
+				D2DB7B9B1ADA4BDF0033730D /* Headers */,
+				D2DB7B9C1ADA4BDF0033730D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBXMapkit;
+			productName = MBXMapkit;
+			productReference = D2DB7B9E1ADA4BDF0033730D /* MBXMapkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2DB7BA81ADA4BDF0033730D /* MBXMapkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DB7BB71ADA4BDF0033730D /* Build configuration list for PBXNativeTarget "MBXMapkitTests" */;
+			buildPhases = (
+				D2DB7BA51ADA4BDF0033730D /* Sources */,
+				D2DB7BA61ADA4BDF0033730D /* Frameworks */,
+				D2DB7BA71ADA4BDF0033730D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DB7BAC1ADA4BDF0033730D /* PBXTargetDependency */,
+			);
+			name = MBXMapkitTests;
+			productName = MBXMapkitTests;
+			productReference = D2DB7BA91ADA4BDF0033730D /* MBXMapkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DB7B951ADA4BDF0033730D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Scott Petit";
+				TargetAttributes = {
+					D2DB7B9D1ADA4BDF0033730D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D2DB7BA81ADA4BDF0033730D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = D2DB7B981ADA4BDF0033730D /* Build configuration list for PBXProject "MBXMapkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2DB7B941ADA4BDF0033730D;
+			productRefGroup = D2DB7B9F1ADA4BDF0033730D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DB7B9D1ADA4BDF0033730D /* MBXMapkit */,
+				D2DB7BA81ADA4BDF0033730D /* MBXMapkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DB7B9C1ADA4BDF0033730D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DB7BA71ADA4BDF0033730D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2DB7B991ADA4BDF0033730D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DB7BCC1ADA4C340033730D /* MBXMapKit.m in Sources */,
+				D2DB7BCE1ADA4C340033730D /* MBXOfflineMapDatabase.m in Sources */,
+				D2DB7BD01ADA4C340033730D /* MBXOfflineMapDownloader.m in Sources */,
+				D2DB7BD41ADA4C340033730D /* MBXRasterTileOverlay.m in Sources */,
+				D2DB7BD21ADA4C340033730D /* MBXPointAnnotation.m in Sources */,
+				D2DB7BD61ADA4C340033730D /* MBXRasterTileRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DB7BA51ADA4BDF0033730D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DB7BB11ADA4BDF0033730D /* MBXMapkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DB7BAC1ADA4BDF0033730D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DB7B9D1ADA4BDF0033730D /* MBXMapkit */;
+			targetProxy = D2DB7BAB1ADA4BDF0033730D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2DB7BB21ADA4BDF0033730D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2DB7BB31ADA4BDF0033730D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2DB7BB51ADA4BDF0033730D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MBXMapkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D2DB7BB61ADA4BDF0033730D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MBXMapkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D2DB7BB81ADA4BDF0033730D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MBXMapkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2DB7BB91ADA4BDF0033730D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MBXMapkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DB7B981ADA4BDF0033730D /* Build configuration list for PBXProject "MBXMapkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DB7BB21ADA4BDF0033730D /* Debug */,
+				D2DB7BB31ADA4BDF0033730D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DB7BB41ADA4BDF0033730D /* Build configuration list for PBXNativeTarget "MBXMapkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DB7BB51ADA4BDF0033730D /* Debug */,
+				D2DB7BB61ADA4BDF0033730D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2DB7BB71ADA4BDF0033730D /* Build configuration list for PBXNativeTarget "MBXMapkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DB7BB81ADA4BDF0033730D /* Debug */,
+				D2DB7BB91ADA4BDF0033730D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2DB7B951ADA4BDF0033730D /* Project object */;
+}

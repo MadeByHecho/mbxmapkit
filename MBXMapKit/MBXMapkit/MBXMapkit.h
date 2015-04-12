@@ -35,6 +35,12 @@
 
 #pragma mark - MBXMapKit global settings
 
+//! Project version number for MBXMapkit.
+FOUNDATION_EXPORT double MBXMapkitVersionNumber;
+
+//! Project version string for MBXMapkit.
+FOUNDATION_EXPORT const unsigned char MBXMapkitVersionString[];
+
 /** Global convenience methods for the framework. */
 @interface MBXMapKit : NSObject
 
