@@ -85,6 +85,7 @@ typedef void (^MBXRasterTileOverlayCompletionBlock)(NSData *data, NSError *error
 
 @implementation MBXRasterTileOverlay
 
+@dynamic canReplaceMapContent;
 
 #pragma mark - URL utility funtions
 

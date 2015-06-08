@@ -1,0 +1,63 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/scott/Code/Open Source/mbxmapkit/build/Release-iphoneos/MBXMapkit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MBXConstantsAndTypes.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/MBXMapkit/MBXConstantsAndTypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBXMapKit.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/MBXMapkit/MBXMapKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBXMapkit-Swift.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/build/Release-iphoneos/MBXMapkit.framework/Headers/MBXMapkit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBXOfflineMapDatabase.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/MBXMapkit/MBXOfflineMapDatabase.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBXOfflineMapDownloader.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/MBXMapkit/MBXOfflineMapDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBXPointAnnotation.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/MBXMapkit/MBXPointAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBXRasterTileOverlay.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/MBXMapkit/MBXRasterTileOverlay.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBXRasterTileRenderer.h",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/MBXMapkit/MBXRasterTileRenderer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/scott/Code/Open Source/mbxmapkit/build/Release-iphoneos/MBXMapkit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/scott/Code/Open Source/mbxmapkit/build/MBXMapkit.build/Release-iphoneos/MBXMapkit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
